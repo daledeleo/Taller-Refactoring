@@ -15,7 +15,12 @@ public class Solucion {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Player jugador1=new Player();
+        Player jugador2=new Player();
+        Juego juego=new Juego(jugador1,jugador2);
+        //Se selecciona las rondas a jugar
+        juego.jugar(100);
+        
     }
     
 }

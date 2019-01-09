@@ -10,5 +10,27 @@ package solucion;
  * @author Administrador
  */
 public class Player {
+    private int wins=0;
+    private String objeto="";
+    
+    public void aumentarWins(){
+        this.wins++;
+    }
+
+    public int getWins() {
+        return wins;
+    }
+
+    public void setWins(int wins) {
+        this.wins = wins;
+    }
+
+    public String getObjeto() {
+        return objeto;
+    }
+
+    public void setObjeto(String objeto) {
+        this.objeto = objeto;
+    }
     
 }
